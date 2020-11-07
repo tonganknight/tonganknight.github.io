@@ -1,14 +1,24 @@
 /* Utility section*/
 *{
     margin:0;
-    padding:0;}
+    padding:0;
+}
 
 .flex-box{
     display:flex;
+    height: 100%;
+    width: 100%
 }
 
 :root{
     --primary-color: rgba(59,68,75);
+    --text-color: white;
+
+}
+/* this fixes the scroll issue*/
+body{
+    overflow-y:scroll;
+    overflow-x:hidden;
 }
 
 
@@ -20,7 +30,7 @@
 .nav-bar{
     padding: 20px;
     background-color:rgb(59,68,75);
-    color: white;
+    color: var(--text-color);
     font-family: sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -46,7 +56,8 @@
 }
 
 .nav-bar a{
-    color: var(--primary-color);
+    color: var(--text-color)
+
 }
 
 
@@ -75,6 +86,88 @@
     min-height: 315px;
     background-size: cover;
     display: flex;
-    padding: 15px;
+    padding: 20px;
+}
+
+.banner-img p{
+    color: var(--text-color)
+    
+}
+
+/* End of Banner section*/
+
+/*About me Section*/
+
+.left-border{ /* controls the the border*/
+    height: 200px;
+    width: 25%;
+    border-right: solid thick var(--primary-color);
+    margin-top: 50px;
+}   
+
+.left-border p{ /* controls the box the about me section sits in*/
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: var(--primary-color);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
 
 }
+
+.border-content{  /*moves the about away from the border line*/
+    margin-right: 25px;
+}
+
+.about-me-text{
+    width: 90%;
+    margin: 50px 100px 50px 100px;
+    color: var(--primary-color);
+    font-size: 21px;
+}
+
+.work{
+    width: 22%;
+    height: 500px;
+}
+/*gid work section*/
+
+.grid{
+    margin: 50px 100px 50px 100px;
+    display: grid;
+    height: 100%;
+    width: 80%;
+    grid-template-columns: 1fr repeat(2, 1fr) ;
+    grid-template-rows: 1fr repeat(2, 1fr);
+    gap: 25px;
+}
+
+.place-holder{
+    background-color: rgb(52, 144, 231);
+    height:100px;
+    width: 100px;
+    border: solid black;
+    
+}
+
+.surf-report{
+background-color: rgb(2, 70, 133);
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+align-items: flex-end;
+}
+
+.surf-report p{
+    background-color: rgb(52, 144, 231); 
+    color: var(--text-color);
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+
