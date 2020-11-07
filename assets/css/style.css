@@ -1,0 +1,80 @@
+/* Utility section*/
+*{
+    margin:0;
+    padding:0;}
+
+.flex-box{
+    display:flex;
+}
+
+:root{
+    --primary-color: rgba(59,68,75);
+}
+
+
+
+/*End of Utility Section*/
+
+/* Navigation Bar*/
+
+.nav-bar{
+    padding: 20px;
+    background-color:rgb(59,68,75);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    display:inline-flex;
+    width: 100%;
+}
+
+.nav-bar h1{
+    display:inline-block;
+    margin-left: 45px;
+    font-size: 50px ;
+}
+
+/* pulls all content for the nav bar to the right*/
+.nav-bar nav{ 
+    margin: 7px; 
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+
+.nav-bar a{
+    color: var(--primary-color);
+}
+
+
+.nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-bar nav ul li a{
+    font-size:25px;
+    font-weight: lighter;
+    padding: 10px 15px;
+    text-decoration: none;
+    }   
+
+/* End of Navigation Bar*/
+
+/* Banner*/
+
+.banner-img{
+    background-image: url("../images/Banner-1.JPG");
+    width: 100%;
+    min-height: 315px;
+    background-size: cover;
+    display: flex;
+    padding: 15px;
+
+}
