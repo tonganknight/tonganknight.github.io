@@ -238,7 +238,7 @@ align-items: flex-end;
     justify-content: space-evenly;
 }
 
-.contact-info ul li{
+.contact-info ul li {
     display: inline-flex;
     justify-content: space-evenly;
 }
