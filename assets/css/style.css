@@ -21,8 +21,6 @@ body{
     overflow-x:hidden;
 }
 
-
-
 /*End of Utility Section*/
 
 /* Navigation Bar*/
@@ -87,10 +85,14 @@ body{
     background-size: cover;
     display: flex;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-img p{
-    color: var(--text-color)
+    color: var(--text-color);
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
@@ -169,17 +171,18 @@ align-items: flex-end;
 }
 
 
-.surf-report p, .led-wall p, .calculator p, .pastel-puzzles p{
+.surf-report p, .led-wall p, .calculator p, .pastel-puzzles p, .run-buddy p{
+    text-decoration: none;
     background-color: rgb(52, 144, 231); 
     color: var(--text-color);
     margin: 10px 10px 10px 10px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 18px;
+    text-decoration: none;
 }
 
-.run-buddy p {
-    display: none;
-}
+
+
 
 
 
@@ -222,17 +225,34 @@ align-items: flex-end;
     display: inline-block;
     font-size: 40px;
     font-family: sans-serif;
-    width: 15.5%;
+    width: 16.8%;
     margin-left: 46px;
 }
 
 
 .contact-info{
-    display:inline-block
+    display:inline-flex;
 
 }
 
-.contact-info ul{
+.flex-footer {
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+.flex-footer > div{
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px
+
+}
+
+
+
+/*.contact-info ul{
     margin-left: 200px;
     display:flex;
     justify-content: space-evenly;
@@ -241,4 +261,5 @@ align-items: flex-end;
 .contact-info ul li {
     display: inline-flex;
     justify-content: space-evenly;
+    font-size: 18px; /*
 }
