@@ -12,6 +12,7 @@
 
 :root{
     --primary-color: rgba(59,68,75);
+    --secondary-color: rgb(52, 144, 231);
     --text-color: white;
 
 }
@@ -43,6 +44,7 @@ body{
     font-size: 50px ;
 }
 
+
 /* pulls all content for the nav bar to the right*/
 .nav-bar nav{ 
     margin: 7px; 
@@ -73,6 +75,12 @@ body{
     padding: 10px 15px;
     text-decoration: none;
     }   
+
+.nav-bar nav ul li a:hover{
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+}
+
 
 /* End of Navigation Bar*/
 
@@ -156,7 +164,7 @@ body{
 
 
 .place-holder{
-    background-color: rgb(52, 144, 231);
+    background-color: var(--secondary-color);
     height:100px;
     width: 100px;
     border: solid black;
@@ -171,20 +179,14 @@ align-items: flex-end;
 }
 
 
-.surf-report p, .led-wall p, .calculator p, .pastel-puzzles p, .run-buddy p{
+.surf-report p, .led-wall p, .calculator p, .pastel-puzzles p, .run-buddy p{ /* this is to govern the place-holders until I get links*/
     text-decoration: none;
-    background-color: rgb(52, 144, 231); 
+    background-color: var(--secondary-color); 
     color: var(--text-color);
     margin: 10px 10px 10px 10px;
     padding: 20px;
     font-size: 18px;
-    text-decoration: none;
 }
-
-
-
-
-
 
 .led-wall{
     background-color: rgb(2, 70, 133);
@@ -216,6 +218,29 @@ align-items: flex-end;
     grid-row: 2/ span 1;
     align-items: flex-end;
 }
+
+.run-buddy h4{
+    text-decoration: none;
+    background-color: var(--secondary-color); 
+    color: var(--text-color);
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.run-buddy:hover{
+    background-color: linear-gradient(grey white);
+    opacity: .7;}
+
+.run-buddy h4:hover{
+    animation: turn 4s infinite;
+        animation-timing-function: linear;}
+
+
+    @keyframes turn{
+          
+        100% {transform:rotatex(360deg) } }
+
 
 /* End of  Grid section
 
