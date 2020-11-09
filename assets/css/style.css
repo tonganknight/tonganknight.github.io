@@ -216,7 +216,7 @@ align-items: flex-end;
 }
 
 .run-buddy{
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/run-buddy.JPG");
     background-size:cover;
     border: solid black;
     grid-column: 2/ span 1;
