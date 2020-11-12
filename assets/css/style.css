@@ -177,11 +177,32 @@ body{
 }
 
 .surf-report{
-background-color: rgb(2, 70, 133);
+background-image:  url(../images/surf.jpg);
+background-size: cover;
 grid-column: 1 /span 2;
 grid-row: 1/ span 2;
 align-items: flex-end;
 }
+
+.surf-report h4, .run-buddy h4, .led-wall h4, .calculator h4, .pastel-puzzles h4{
+    text-decoration: none;
+    background-color: var(--secondary-color); 
+    color: var(--text-color);
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+.surf-report:hover, .run-buddy:hover, .led-wall:hover, .calculator:hover, .pastel-puzzles:hover {
+        background-color: linear-gradient(grey white);
+        opacity: .7;}
+
+
+.surf-report h4:hover, .run-buddy h4:hover, .led-wall h4:hover, .calculator h4:hover, .pastel-puzzles h4:hover {
+animation: turn 4s infinite;
+animation-timing-function: linear;}
+
 
 
 .surf-report p, .led-wall p, .calculator p, .pastel-puzzles p, .run-buddy p{ /* this is to govern the place-holders until I get links*/
@@ -194,13 +215,17 @@ align-items: flex-end;
 }
 
 .led-wall{
-    background-color: rgb(2, 70, 133);
+    background-image:  url(../images/led.jpg);
+    background-size: cover;
     grid-column: 3/ span 1;
     grid-row: 1/ span 1;
     align-items: flex-end;
 
+
+
 }.calculator{
-    background-color: rgb(2, 70, 133);
+    background-image:  url(../images/calculator.jpg);
+    background-size: cover;
     grid-column: 3 / span 1;
     grid-row: 2/ span 1;
     align-items: flex-end;
@@ -208,7 +233,8 @@ align-items: flex-end;
 }
 
 .pastel-puzzles{
-    background-color: rgb(2, 70, 133);
+    background-image:  url(../images/Puzzles.jpg);
+    background-size: cover;
     grid-column: 1/span 1;                
     grid-row: 3/ span ;
     align-items: flex-end;
@@ -314,14 +340,6 @@ align-items: flex-end;
         height: 600px;
     }
 
-    .run-buddy h4{
-        text-decoration: none;
-        background-color: var(--secondary-color); 
-        color: var(--text-color);
-        margin: 10px;
-        padding: 8px;
-        font-size: 18px;
-    }
 
     .contact-me{
         display: flex;
