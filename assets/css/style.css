@@ -176,15 +176,15 @@ body{
     
 }
 
-.surf-report{
-background-image:  url(../images/surf.jpg);
+.taskmaster{
+background-image:  url(../images/Taskmaster-pro.JPG);
 background-size: cover;
 grid-column: 1 /span 2;
 grid-row: 1/ span 2;
 align-items: flex-end;
 }
 
-.surf-report h4, .run-buddy h4, .led-wall h4, .calculator h4, .pastel-puzzles h4{
+.taskmaster h4, .run-buddy h4, .work-scheduler h4, .weather-dashboard h4, .coding-test h4{
     text-decoration: none;
     background-color: var(--secondary-color); 
     color: var(--text-color);
@@ -194,18 +194,18 @@ align-items: flex-end;
 }
 
 
-.surf-report:hover, .run-buddy:hover, .led-wall:hover, .calculator:hover, .pastel-puzzles:hover {
+.taskmaster:hover, .run-buddy:hover, .work-scheduler:hover, .weather-dashboard:hover, .coding-test:hover {
         background-color: linear-gradient(grey white);
         opacity: .7;}
 
 
-.surf-report h4:hover, .run-buddy h4:hover, .led-wall h4:hover, .calculator h4:hover, .pastel-puzzles h4:hover {
+.taskmaster h4:hover, .run-buddy h4:hover, .work-scheduler h4:hover, .weather-dashboard h4:hover, .coding-test h4:hover {
 animation: turn 4s infinite;
 animation-timing-function: linear;}
 
 
 
-.surf-report p, .led-wall p, .calculator p, .pastel-puzzles p, .run-buddy p{ /* this is to govern the place-holders until I get links*/
+.taskmaster p, .work-scheduler p, .weather-dashboard p, .coding-test p, .run-buddy p{ /* this is to govern the place-holders until I get links*/
     text-decoration: none;
     background-color: var(--secondary-color); 
     color: var(--primary-color);
@@ -214,8 +214,12 @@ animation-timing-function: linear;}
     font-size: 18px;
 }
 
-.led-wall{
-    background-image:  url(../images/led.jpg);
+.project-link{
+    text-decoration: none;
+}
+
+.work-scheduler{
+    background-image:  url(../images/work-scheduler.jpg);
     background-size: cover;
     grid-column: 3/ span 1;
     grid-row: 1/ span 1;
@@ -223,8 +227,8 @@ animation-timing-function: linear;}
 
 
 
-}.calculator{
-    background-image:  url(../images/calculator.jpg);
+}.weather-dashboard{
+    background-image:  url(../images/weatherdashboard.jpg);
     background-size: cover;
     grid-column: 3 / span 1;
     grid-row: 2/ span 1;
@@ -232,8 +236,8 @@ animation-timing-function: linear;}
 
 }
 
-.pastel-puzzles{
-    background-image:  url(../images/Puzzles.jpg);
+.coding-test{
+    background-image:  url(../images/coding-testest.JPG);
     background-size: cover;
     grid-column: 1/span 1;                
     grid-row: 3/ span ;
@@ -281,7 +285,7 @@ animation-timing-function: linear;}
     font-size: 40px;
     font-family: sans-serif;
     width: 17%;
-    margin-left: 46px;
+    margin-left: 30px;
     color: var(--secondary-color);
 }
 
@@ -460,6 +464,10 @@ animation-timing-function: linear;}
 }
 
 }}
+
+/*@media screen and (max-width:300){*/
+
+    
 
 
 
