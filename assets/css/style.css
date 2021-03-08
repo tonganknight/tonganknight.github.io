@@ -184,7 +184,7 @@ grid-row: 1/ span 2;
 align-items: flex-end;
 }
 
-.taskmaster h4, .run-buddy h4, .work-scheduler h4, .weather-dashboard h4, .awesome-sauce h4{
+.taskmaster h4, .run-buddy h4, .readviews h4, .weather-dashboard h4, .awesome-sauce h4{
     text-decoration: none;
     background-color: var(--secondary-color); 
     color: var(--text-color);
@@ -194,18 +194,18 @@ align-items: flex-end;
 }
 
 
-.taskmaster:hover, .run-buddy:hover, .work-scheduler:hover, .weather-dashboard:hover, .awesome-sauce:hover {
+.taskmaster:hover, .run-buddy:hover, .readviews:hover, .weather-dashboard:hover, .awesome-sauce:hover {
         background-color: linear-gradient(grey white);
         opacity: .7;}
 
 
-.taskmaster h4:hover, .run-buddy h4:hover, .work-scheduler h4:hover, .weather-dashboard h4:hover, .awesome-sauce h4:hover {
+.taskmaster h4:hover, .run-buddy h4:hover, .readviews h4:hover, .weather-dashboard h4:hover, .awesome-sauce h4:hover {
 animation: turn 4s infinite;
 animation-timing-function: linear;}
 
 
 
-.taskmaster p, .work-scheduler p, .weather-dashboard p, .awesome-sauce p, .run-buddy p{ /* this is to govern the place-holders until I get links*/
+.taskmaster p, .readviews p, .weather-dashboard p, .awesome-sauce p, .run-buddy p{ /* this is to govern the place-holders until I get links*/
     text-decoration: none;
     background-color: var(--secondary-color); 
     color: var(--primary-color);
@@ -218,8 +218,8 @@ animation-timing-function: linear;}
     text-decoration: none;
 }
 
-.work-scheduler{
-    background-image:  url(../images/work-scheduler.jpg);
+.readviews{
+    background-image:  url("../images/readviews.JPG");
     background-size: cover;
     grid-column: 3/ span 1;
     grid-row: 1/ span 1;
