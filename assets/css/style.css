@@ -369,7 +369,7 @@ color: var( --secondary-color);
     align-items:center;
     width: 500px;
     height: 100px;
-    margin-left: 500px;
+    margin-left: 700px;
     margin-top: 125px;
 
 }
@@ -381,7 +381,8 @@ color: var( --secondary-color);
     align-items:center;
     width: 500px;
     height: 100px;
-    margin-left: 500px;
+    margin-left: 698px;
+    margin-left: 700px;
     margin-top: 100px;
   
 
@@ -394,7 +395,7 @@ color: var( --secondary-color);
     background-color:  var(--background);
     width: 500px;
     height: 100px;
-    margin-left: 500px;
+    margin-left: 700px;
     margin-bottom: 25px;
     margin-top: 50px;
 }
@@ -466,7 +467,7 @@ background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-a
     width: 500px;
     height: 100px;
     margin-left: 698px;
-    margin-left: 500px;
+    margin-left: 700px;
     margin-top: 10px;
     color: var(--primary-color);
     font-weight: bold;
@@ -484,7 +485,8 @@ background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-a
     align-items:center;
     width: 500px;
     height: 100px;
-    margin-left: 500px;
+    margin-left: 698px;
+    margin-left: 700px;
     margin-top: 10px;
     color: var(--primary-color);
     background-color: var(--background);
@@ -562,7 +564,7 @@ background-color:  var(--background);
     color: var(--primary-color);
     font-size: 30px;
     font-weight: bold;
-    margin-left: 200px;
+    margin-left: 490px;
     margin-bottom: 15px;
 
 }
@@ -577,7 +579,7 @@ background-color:  var(--background);
     width: 500px;
     height: 700px;
     margin-bottom: 100px;
-    margin-left: 200px;
+    margin-left: 400px;
     background: rgba(255,255,255, 0.6);
     overflow-y: auto;
 }
@@ -715,4 +717,33 @@ background-color:  var(--background);
     background-size: cover;
     opacity: 1.0;
 }
+
+.contactTitle{
+    background-color: var(--background);
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  
+  }
+
+  .contactText{
+    background-color: var(--background);
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .footerflex{
+    background-color:  var(--background);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 350px;
+    text-align: center;
+
+  }
+
+
 
