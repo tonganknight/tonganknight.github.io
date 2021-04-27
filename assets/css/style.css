@@ -4,6 +4,10 @@
 --background: #3e5c76;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 *{
     z-index: 1;
 }
@@ -369,7 +373,7 @@ color: var( --secondary-color);
     align-items:center;
     width: 500px;
     height: 100px;
-    margin-left: 700px;
+    margin-left: 300px;
     margin-top: 125px;
 
 }
@@ -381,8 +385,7 @@ color: var( --secondary-color);
     align-items:center;
     width: 500px;
     height: 100px;
-    margin-left: 698px;
-    margin-left: 700px;
+    margin-left: 300px;
     margin-top: 100px;
   
 
@@ -395,7 +398,7 @@ color: var( --secondary-color);
     background-color:  var(--background);
     width: 500px;
     height: 100px;
-    margin-left: 700px;
+    margin-left: 300px;
     margin-bottom: 25px;
     margin-top: 50px;
 }
@@ -466,8 +469,7 @@ background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-a
     align-items:center;
     width: 500px;
     height: 100px;
-    margin-left: 698px;
-    margin-left: 700px;
+    margin-left: 300px;
     margin-top: 10px;
     color: var(--primary-color);
     font-weight: bold;
@@ -485,8 +487,7 @@ background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-a
     align-items:center;
     width: 500px;
     height: 100px;
-    margin-left: 698px;
-    margin-left: 700px;
+    margin-left: 300px;
     margin-top: 10px;
     color: var(--primary-color);
     background-color: var(--background);
