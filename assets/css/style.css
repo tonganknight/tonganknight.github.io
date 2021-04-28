@@ -383,7 +383,7 @@ color: var( --secondary-color);
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    width: 500px;
+    width: 710px;
     height: 100px;
     margin-left: 300px;
     margin-top: 100px;
@@ -396,7 +396,7 @@ color: var( --secondary-color);
     justify-content: space-between;
     align-items:center;
     background-color:  var(--background);
-    width: 500px;
+    width: 940px;
     height: 100px;
     margin-left: 300px;
     margin-bottom: 25px;
@@ -438,12 +438,26 @@ color: var( --secondary-color);
     background-image: url("https://cdn1.iconfinder.com/data/icons/ColoBrush_Pack/256/database.png");
 }
 
+.graphqlicon{
+    background-image: url("../images/graphql.png");
+}
+
+.pwaicon{
+    background-image: url("../images/PWA.png");
+    background-size: cover;
+    width: 120px;
+}
+
 .npmicon{
     background-image: url("https://cdn1.iconfinder.com/data/icons/programing-development-8/24/npm_logo-256.png");
 }
 
 .bootstrapicon{
     background-image: url("https://cdn1.iconfinder.com/data/icons/flat-and-simple-part-1/128/bootstrap-256.png");
+}
+
+.apiicon{
+    background-image: url("../images/api.png");
 }
 
 .jqueryicon{
@@ -467,9 +481,9 @@ background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-a
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    width: 500px;
+    width: 670px;
     height: 100px;
-    margin-left: 300px;
+    margin-left: 310px;
     margin-top: 10px;
     color: var(--primary-color);
     font-weight: bold;
@@ -479,15 +493,19 @@ background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-a
     margin-right: 35px;
 }
 
+.Apitext{
+    margin-left: 35px;
+}
+
 
 .xpicon3textflex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    width: 500px;
+    width: 900px;
     height: 100px;
-    margin-left: 300px;
+    margin-left: 310px;
     margin-top: 10px;
     color: var(--primary-color);
     background-color: var(--background);
@@ -496,6 +514,11 @@ background-image: url("https://cdn3.iconfinder.com/data/icons/logos-and-brands-a
 
 .databseicontext{
     margin-right: 25px;
+}
+
+.databaselist{
+    color: var(--primary-color);
+    margin-left:650px;
 }
 
 .exoeriencebackgroundflex{
@@ -555,7 +578,7 @@ background-color:  var(--background);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 180px;
     margin-top: 75px;
     width: 900px;
     color: var(--primary-color);
@@ -565,7 +588,7 @@ background-color:  var(--background);
     color: var(--primary-color);
     font-size: 30px;
     font-weight: bold;
-    margin-left: 490px;
+    margin-left: 180px;
     margin-bottom: 15px;
 
 }
@@ -580,7 +603,7 @@ background-color:  var(--background);
     width: 500px;
     height: 700px;
     margin-bottom: 100px;
-    margin-left: 400px;
+    margin-left: 100px;
     background: rgba(255,255,255, 0.6);
     overflow-y: auto;
 }
