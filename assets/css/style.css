@@ -416,15 +416,40 @@ color: var( --secondary-color);
 
 }
 
+.htmlicon:hover{
+    animation: turn 4s infinite;
+    animation-timing-function: linear;}
+
+    @keyframes turn{
+          
+        100% {transform:rotatez(360deg) } }
+
 .cssicon{
     background-image: url("https://freeiconshop.com/wp-content/uploads/edd/css-flat.png");
 
 }
+.cssicon:hover{
+    animation: spin 4s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin{
+          
+    100% {transform:rotatex(360deg) } }
 
 .javascripticon{
     background-image: url("https://freeiconshop.com/wp-content/uploads/edd/js-flat.png");
 
 }
+
+.javascripticon:hover{
+    animation: coin 4s infinite;
+    animation-timing-function: linear;
+}
+@keyframes coin{
+          
+    100% {transform:rotatey(360deg) } }
+
 
 .nodejsicon{
     background-image: url("https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/node-256.png");
